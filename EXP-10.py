@@ -105,7 +105,6 @@ from sklearn.naive_bayes import BernoulliNB
 from sklearn.preprocessing import Binarizer
 
 # Reuse train-test split
-# Gaussian NB
 gnb = GaussianNB()
 gnb.fit(X_train, y_train)
 y_pred_gnb = gnb.predict(X_test)
